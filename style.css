@@ -1,0 +1,282 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    text-decoration: none;
+    /* background-color: blanchedalmond; */
+}
+body{
+    background: url(BG.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 95%;
+    border: solid red;
+    background-color: rgba(250, 235, 215, 0.274);
+    padding: 10px;
+
+}
+nav  a {
+    margin-right: 100px;
+    background-color: rgba(165, 42, 42, 0.233);
+
+}
+
+.dd {
+        
+    color: rgb(255, 255, 255);
+    padding: 10px ;
+    border-radius: 5px;
+    background-color: #f50101;
+}
+
+.dd:hover{
+    background-color: rgb(255, 255, 255);
+    color: #f50101;
+    /* border: 1px solid rgb(0, 0, 0); */
+    box-shadow: 1px 3px 10px #25242b;
+}
+
+/* ...said-bar... */
+
+.said-bar{
+
+    background-color: rgb(139, 11, 71);
+    position: absolute;
+    right: 0%;
+    top: 0%;
+    width: 5%;
+    height: 100vh; 
+ }
+ 
+  .menu{
+    margin-left: 20px;
+    position: absolute;
+    top: 10px;
+    cursor: pointer;
+ }
+     
+ .social{
+    margin-left: 20px;
+     transform: translateY(-50%);
+     position: absolute;
+     top: 40%;
+     cursor: pointer;
+ }
+ 
+ .us{
+    margin-left: 20px;
+     position: absolute;
+     bottom: 10%;
+     cursor: pointer;
+ } 
+
+/* ...section... */
+
+section{
+    position: absolute;
+    width: 95%;
+    
+}
+
+.log{
+    margin: 10px;
+    text-align: center;
+}
+
+.log .he{
+
+        text-decoration: none;
+        background-color: rgba(240, 248, 255, 0.582);
+        width: 10%;
+        font-size: 30px;
+        text-align: center;
+        margin: 30px;
+        border-radius: 15px;
+        position: relative;
+        top: 20%;
+        box-shadow: 1px 3px 10px #221919;
+        transform: translateY(-50);
+        padding: 10px;
+
+}
+.log .he:hover{
+    transform: scale(0.90);
+    box-shadow: 1px 3px 30px #221919;
+    color: black;
+    text-decoration: solid #ffffff;
+    background-color: rgba(255, 0, 64, 0.288);
+}
+.log img{
+    position: relative;
+}
+h1{
+    font-size: 150px;
+    color: #cc1414;
+}
+h1:hover{
+
+    transform: scale(0.99);
+   text-shadow: 1px 3px 20px #000000;
+}
+p{
+    font-size: 30px;
+    color: #ffffff;
+    background-color: #000000a4;
+    margin: 30px;
+    padding: 30px;
+    border-radius: 20px;
+}
+.main{
+    position: absolute;
+    left: 15%;
+}
+
+@media screen and (max-width:600px) {
+
+     body{
+        background: url(sa\ bg.jpg);
+        background-repeat: no-repeat;
+        background-size: 100% 200vh;
+     }
+     
+    nav{
+        background-color: #333;
+        background-color: rgb(255, 255, 255);
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding-bottom:50px;
+        }
+    nav img{
+        height: 30px;
+        position: relative;
+        bottom: 10%;
+        left: 40%;
+    }
+
+    .like{
+        width: 0%;
+        position: absolute;
+        top: 6vh;
+        right: 40%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: aqua;
+        
+    } 
+  .dd {
+        padding: 10px ;
+        border-radius: 5px;
+        font-size: 10px;
+        background-color: #f50101;
+        color: rgb(255, 255, 255);
+    }
+
+ .dd:hover{
+        background-color: rgb(255, 255, 255);
+        color: #f50101;
+    }
+    /* ...said-bar... */
+
+.said-bar{
+
+    background-color: rgba(128, 128, 134, 0.205);
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    width: 100%;
+    height: 10vh; 
+ }
+ 
+  .menu{
+    margin-top: 10px;
+    position: absolute;
+    top: 10px;
+    cursor: pointer;
+ }
+     
+ .social{
+    margin-top: 10px;
+     transform: translateY(-50%);
+     position: absolute;
+     left: 25%;
+     cursor: pointer;
+ }
+ 
+ .us{
+    margin-bottom: 10px;
+     position: absolute;
+     right: 5%;
+     cursor: pointer;
+ } 
+
+    /* ...section... */
+
+    section{
+        position: absolute;
+        cursor: pointer;
+    }
+
+    h1{
+        position: relative;
+        font-size: 60px;
+        margin: 0%;
+        padding: 0%;
+        text-align: center;
+    }
+    p{
+        font-size: 20px;
+        margin: 0%;
+        padding: 10%;
+        
+    }
+    .main{
+        margin-top: 20px;
+        margin-left: -10%;
+    }
+
+    .log{
+        width: 60%;
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        position: relative;
+        top: 20vh;
+        left: 100px;
+        transform: translatey(175%);
+        padding-bottom: 10%;
+    }
+
+    .log .he{
+      
+        text-decoration: none;
+        background-color: rgba(240, 248, 255, 0.582);
+        width: 60%;
+        border: 2.5px solid #4f5058;
+    }
+    .log .he:hover{
+        /* transform: scale(0.90); */
+        box-shadow: 1px 3px 30px #221919;
+        background-color: rgba(255, 0, 64, 0.288);
+    }
+    .log img:hover{
+        /* box-shadow: 1px 3px 30px #221919; */
+        backdrop-filter: 1px 3px 30px #221919;
+    }
+
+    .log a{
+        font-size: 25px;
+        color: #ffffff;
+    }
+
+    .log img{
+        position: relative;
+        height: 50px;
+    }
+
+}
